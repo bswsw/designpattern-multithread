@@ -1,9 +1,10 @@
 rootProject.name = "designpattern-multithread"
 
 include(
-    "singlethread",
-    "activeobject",
-    "pubsub"
+    "java-thread",
+    "single-threaded-execution",
+    "active-object",
+    "pubsub",
 )
 
 makeProjectDir(rootProject, "subprojects")

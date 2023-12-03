@@ -1,7 +1,6 @@
 rootProject.name = "designpattern-multithread"
 
 include(
-    "java-thread",
     "single-threaded-execution",
     "active-object",
     "pubsub",

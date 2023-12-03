@@ -16,7 +16,7 @@ public class MakerClientThread extends Thread {
     @Override
     public void run() {
         try {
-            for (int i = 0; true; i++) {
+            for (int i = 0; i < 10; i++) {
                 var result = activeObject.makeString(i, fillchar);
 
                 Thread.sleep(10);

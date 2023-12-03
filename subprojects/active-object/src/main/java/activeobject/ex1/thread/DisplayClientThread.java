@@ -14,7 +14,7 @@ public class DisplayClientThread extends Thread {
     @Override
     public void run() {
         try {
-            for (int i = 0; true; i++) {
+            for (int i = 0; i < 10; i++) {
                 var str = Thread.currentThread().getName() + " " + i;
                 activeObject.displayString(str);
 

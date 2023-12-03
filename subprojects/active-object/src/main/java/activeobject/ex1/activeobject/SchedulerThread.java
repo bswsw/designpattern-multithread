@@ -14,6 +14,7 @@ public class SchedulerThread extends Thread {
     @Override
     public void run() {
         while (true) {
+            System.out.println("schedulerThread...");
             var request = queue.takeRequest();
             request.execute();
         }

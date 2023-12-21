@@ -4,6 +4,8 @@ include(
     "single-threaded-execution",
     "active-object",
     "pubsub",
+    "workerthread",
+    "common",
 )
 
 makeProjectDir(rootProject, "subprojects")

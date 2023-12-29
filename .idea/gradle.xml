@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/subprojects/active-object" />
             <option value="$PROJECT_DIR$/subprojects/common" />
+            <option value="$PROJECT_DIR$/subprojects/future" />
             <option value="$PROJECT_DIR$/subprojects/pubsub" />
             <option value="$PROJECT_DIR$/subprojects/single-threaded-execution" />
             <option value="$PROJECT_DIR$/subprojects/workerthread" />

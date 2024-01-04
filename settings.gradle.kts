@@ -6,7 +6,8 @@ include(
     "pubsub",
     "workerthread",
     "common",
-    "future"
+    "future",
+    "twophasetermination"
 )
 
 makeProjectDir(rootProject, "subprojects")

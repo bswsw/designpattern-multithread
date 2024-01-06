@@ -7,7 +7,8 @@ include(
     "workerthread",
     "common",
     "future",
-    "twophasetermination"
+    "twophasetermination",
+    "thread-specific-storage"
 )
 
 makeProjectDir(rootProject, "subprojects")
